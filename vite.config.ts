@@ -6,12 +6,5 @@ export default defineConfig({
   plugins: [react()],
   server: {
     allowedHosts: ['uncorroborated-divergent-kyleigh.ngrok-free.dev'],
-    proxy: {
-      '/signal': {
-        target: 'http://localhost:3007',
-        changeOrigin: true,
-        ws: true,
-      },
-    },
   },
 })

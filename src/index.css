@@ -219,3 +219,126 @@ body {
   color: #94a3b8;
   font-size: 0.9rem;
 }
+
+.onlinePanel {
+  width: min(92vw, 520px);
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 4px;
+}
+
+.onlineLine {
+  margin: 0 0 10px;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+}
+
+.onlineHint {
+  margin: 10px 0 0;
+  color: #94a3b8;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.onlineHintSecondary {
+  margin-top: 6px;
+  font-size: 0.78rem;
+  opacity: 0.92;
+}
+
+.connectionStatus {
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 10px 0 12px;
+  border: 1px solid #475569;
+  background: #1e293b;
+}
+
+.connectionStatusTitle {
+  margin: 0 0 4px;
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: #f1f5f9;
+}
+
+.connectionStatusDetail {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: #cbd5e1;
+}
+
+.connectionStatus--pending {
+  border-color: #ca8a04;
+  background: #422006;
+}
+
+.connectionStatus--pending .connectionStatusTitle {
+  color: #fde68a;
+}
+
+.connectionStatus--pending .connectionStatusDetail {
+  color: #fef3c7;
+}
+
+.connectionStatus--ok {
+  border-color: #15803d;
+  background: #14532d;
+}
+
+.connectionStatus--ok .connectionStatusTitle {
+  color: #bbf7d0;
+}
+
+.connectionStatus--ok .connectionStatusDetail {
+  color: #dcfce7;
+}
+
+.connectionStatus--error {
+  border-color: #b91c1c;
+  background: #450a0a;
+}
+
+.connectionStatus--error .connectionStatusTitle {
+  color: #fecaca;
+}
+
+.connectionStatus--error .connectionStatusDetail {
+  color: #fee2e2;
+}
+
+.connectionStatus--neutral {
+  border-color: #64748b;
+}
+
+.shareRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.qrBlock {
+  text-align: center;
+}
+
+.qrLabel {
+  margin: 0 0 6px;
+  font-size: 0.85rem;
+  color: #93c5fd;
+}
+
+.roomCodeInput {
+  width: min(92vw, 280px);
+  padding: 10px 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #64748b;
+  background: #0f172a;
+  color: #f8fafc;
+}
